@@ -1,0 +1,16 @@
+
+.about-img {
+  width: 200px;
+  border-radius: 0.5rem;
+  justify-self: center;
+  align-self: center;
+}
+
+.about-blob {
+  width: 220px;
+  fill: #683aa4;
+}
+
+.about-blob-img {
+  width: 215px;
+}

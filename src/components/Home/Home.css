@@ -1,0 +1,33 @@
+
+#hero .col {
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+  }
+  #hero .img-col {
+    justify-content: flex-end;
+    padding: 1rem;
+  }
+  #hero img {
+    height: 100%;
+    width: 100%;
+  }
+  
+  @media screen and (max-width: 768px) {
+    #hero img {
+      height: 250px;
+      width: 65%;
+    }
+  }
+  
+  p{
+    font-size: 16px;
+    color: gray;
+    font-weight: 300;
+  }
+  
+  @media screen and (max-width: 768px) {
+    p {
+      font-size: 14px;
+    }
+  }
